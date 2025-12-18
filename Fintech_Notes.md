@@ -520,7 +520,7 @@ arc(min(f(θ))) = AUROC
 ```
 WER (Word Error Rate) = (S + D + I) / N
 CER (Character Error Rate) = (S + D + I) / N
-MER (Match Error Rate) = 1 - ASR = (S + D + I) / (S + D + C + I)
+MER (Mix Error Rate) = Chinese -> Character ; English -> Word
 ASR (Average Success Rate) = 正確預測數 / 總預測數
 ```
 
